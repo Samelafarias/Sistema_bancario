@@ -359,12 +359,109 @@ footer {
     text-decoration: none;
 }
 
-a{
+.bnt-login > a{
     text-decoration: none;
     color: white;
 }
 
 /*CSS PÁGINA DE CADASTRO*/
+#container-cadastrar {
+    display: flex;
+    height: auto;
+}
+
+/* Lado esquerdo */
+#esquerda-cadastrar {
+    background-color: #FFFFFF; /* Cor de fundo branca */
+    flex: 1; /* Ocupa metade da largura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#conteudo-esquerda {
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    width: 470px;
+    left: 10%;
+}
+
+#conteudo-esquerda img {
+    max-width: 100%;
+    height: auto;
+}
+
+#conteudo-esquerda p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+/* Lado direito */
+#direita-cadastrar {
+    background-color: #000000; /* Cor de fundo preta */
+    flex: 1; /* Ocupa metade da largura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white; /* Texto em branco */
+}
+
+#formulario-direita {
+    width: 80%;
+}
+
+#formulario-direita label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#formulario-direita input[type="text"],
+#formulario-direita input[type="email"],
+#formulario-direita input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+#checkbox-termos {
+    margin-bottom: 20px;
+}
+
+#botao-cadastrar {
+    width: 120px;
+    padding: 10px;
+    background-color: white; /* Cor do botão */
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    display: block;
+    position: absolute;
+    left: 70%;
+}
+
+#bnt-cadast{
+    color: #000000;
+    text-decoration: none;
+}
+
+.line-cadastro{
+    width: 100%;
+    height: 1.5px;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    background-color: white;
+}
 
 /*CSS PÁGINA PRINCIPAL*/
 /*CSS PÁGINA DE TRANSAÇÕES*/
