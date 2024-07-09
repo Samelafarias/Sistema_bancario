@@ -124,7 +124,10 @@ footer {
     height: 400px;
 }
 
-
+/*Css main página principal*/
+.container > img{
+  width: auto ;
+}
 
 /*CSS PÁGINA DE LOGIN*/
 #body-pag-login{
