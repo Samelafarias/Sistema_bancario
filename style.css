@@ -124,90 +124,10 @@ footer {
     height: 400px;
 }
 
-/*Css main página principal*/
-.container > img{
-  width: auto ;
-}
+
 
 /*CSS PÁGINA DE LOGIN*/
-#body-pag-login{
-    background-color: black;
-}
 
-#aside-pag-login{
-    background-color: white;
-    width: 440px;
-    height: 635px;
-    border-radius: 25px;
-    position: absolute;
-    display: block;
-    top: 6%;
-    left: 35%;
-}
-
-#aside-pag-login > img{
-    width: 150px;
-    height: auto;
-    position: absolute;
-    display: block;
-    left: 32.5%;
-    top: 2.5%;
-}
-
-#aside-pag-login > h2{
-    position: absolute;
-    display: block;
-    text-align: center;
-    left: 26%;
-    top: 25%;
-}
-
-#form{
-    display: block;
-    position: absolute;
-    align-items: center;
-    top: 35%;
-    left: 15%;
-    right: 15%;
-}
-
-.h4-login{
-    position: relative;
-    font-size: 18px;
-    display: block;
-    position: relative;
-}
-
-.dados-login{
-    width: 310px;
-    height: 42px;
-    border-radius: 10px;
-    position: relative;
-    display: block;
-    border-color: #a4a4a1;
-    background-color: #d6d6d0;
-    margin-bottom: 12px; 
-}
-
-.bnt-login{
-    width: 200px;
-    height: 42px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    background-color: black;
-    display: block;
-    position: relative;
-    align-items: center;
-    left: 20%;
-    text-decoration: none;
-}
-
-.bnt-login > a{
-    text-decoration: none;
-    color: white;
-}
 
 /*CSS PÁGINA DE CADASTRO*/
 #container-cadastrar {
@@ -250,7 +170,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
     color: white; /* Texto em branco */
 }
 
@@ -260,7 +180,6 @@ footer {
 
 #formulario-direita label {
     display: block;
-    margin-bottom: 5px;
     font-weight: bold;
 }
 
@@ -268,23 +187,25 @@ footer {
 #formulario-direita input[type="email"],
 #formulario-direita input[type="password"] {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
+    height: 100%;
+    padding: 8px;
     border: none;
     border-radius: 5px;
     background-color: #000000;
 }
 
 #checkbox-termos {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    gap: 7px;
 }
 
 #botao-cadastrar {
     width: 120px;
-    padding: 10px;
+    padding: 8px;
     background-color: white; /* Cor do botão */
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
     color: black;
     font-size: 1em;
     font-weight: bold;
@@ -300,6 +221,12 @@ footer {
     text-decoration: none;
 }
 
+.bnt-anexar{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;   
+}
+
 .line-cadastro{
     width: 100%;
     height: 1.5px;
@@ -308,5 +235,56 @@ footer {
     background-color: white;
 }
 
+.container > img{
+  width: auto ;
+}
 /*CSS PÁGINA PRINCIPAL*/
 /*CSS PÁGINA DE TRANSAÇÕES*/
+.nav-img #bnt-home{
+    width: 50px;
+    height: 45px;
+    padding: auto;
+    margin-right: 40px;
+    margin-top: 2px;
+    align-items: center;
+}
+
+.container-body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(#000000, #000000, #1A1A1A, #383838, #505050, #666666);
+    display: flex;
+}
+
+.h2-pag-transacoes{
+    color: white;
+    margin-top: 2.5%;
+}
+
+.container-table{
+    margin-top: 4.5%;
+    width: 70%;
+    height: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: px 0;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #696868;
+    text-align: left;
+}
+th {
+    background-color: #000000;
+    color: white;
+}
+tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
