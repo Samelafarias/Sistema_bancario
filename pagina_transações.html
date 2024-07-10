@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="imgs/logo-01.png" type="image/x-icon">
     <title>Transações-BancoSafe</title>
 </head>
-<body>
+<body class="body-pag-transacoes">
     <header>
         <nav class="navbar" id="nav-pag-inicial"> <!-- Navegação da página -->
             <div class="nav-content">
@@ -21,88 +21,112 @@
         </nav>
     </header>
 
-    <main class="container-body">
-        <h2 class="h2-pag-transacoes">Minhas transações</h2>
-        <div class="container-table">
-            <table>
-                <thead id="cabecalho_table"><!--inicio da tabela-->
-                    <tr><!--dados que vao ser registrados-->
-                       <th class="title_table">Data</th>
-                       <th class="title_table">Descrição</th>
-                       <th class="title_table">Valor</th>
-                       <th class="title_table">Saldo</th>
-                    </tr>
-                </thead>
-                <tbody id="body_table">
-                    <tr>
-                        <td>22/07/2024</td>
-                        <td>Banco do Brasil</td>
-                        <td>- R$ 100,00</td>
-                        <td>R$ 2.200</td>
-                    </tr>
-                    <tr>
-                        <td>21/07/2024</td>
-                        <td>Banco do Brasil</td>
-                        <td>- R$ 100,00</td>
-                        <td>R$ 2.200</td>
-                    </tr>
-                    <tr>
-                        <td>20/07/2024</td>
-                        <td>Banco do Brasil</td>
-                        <td>- R$ 100,00</td>
-                        <td>R$ 2.200</td>
-                    </tr>
-                    <tr>
-                        <td>10/07/2024</td>
-                        <td>Pix</td>
-                        <td>+ R$ 100,00</td>
-                        <td>R$ 2.100</td>
-                    </tr>
-                    <tr>
-                        <td>07/07/2024</td>
-                        <td>Compra</td>
-                        <td>- R$ 200,00</td>
-                        <td>R$ 2.000</td>
-                    </tr>
-                    <tr>
-                        <td>04/07/2024</td>
-                        <td>Compra</td>
-                        <td>- R$ 100,00</td>
-                        <td>R$ 2.400</td>
-                    </tr>
-                    <tr>
-                        <td>01/07/2024</td>
-                        <td>Pix</td>
-                        <td>+ R$ 100,00</td>
-                        <td>R$ 2.500</td>
-                    </tr>
-                    <tr>
-                        <td>16/06/2024</td>
-                        <td>Pix</td>
-                        <td>+ R$ 400,00</td>
-                        <td>R$ 2.400</td>
-                    </tr>
-                    <tr>
-                        <td>15/06/2024</td>
-                        <td>Pix</td>
-                        <td>- R$ 100,00</td>
-                        <td>R$ 2.000</td>
-                    </tr>
-                    <tr>
-                        <td>07/06/2024</td>
-                        <td>Transferência para o Banco do Brasil</td>
-                        <td>- R$ 100,00</td>
-                        <td>R$ 2.100</td>
-                    </tr>
-                    <tr>
-                        <td>01/06/2024</td>
-                        <td>Transferência para Banco do Brasil</td>
-                        <td>- R$ 100,00</td>
-                        <td>R$ 2.200</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <main class="main-pag-transacoes">
+        <section class="container-body">
+            <h2 class="h2-pag-transacoes">Minhas transações</h2>
+            <br>
+            <div class="container-table">
+                <table>
+                    <thead id="cabecalho_table"><!--inicio da tabela-->
+                        <tr><!--dados que vao ser registrados-->
+                           <th class="title_table">Data</th>
+                           <th class="title_table">Descrição</th>
+                           <th class="title_table">Valor</th>
+                           <th class="title_table">Saldo</th>
+                        </tr>
+                    </thead>
+                    <tbody id="body_table">
+                        <tr>
+                            <td>22/07/2024</td>
+                            <td>Banco do Brasil</td>
+                            <td>- R$ 100,00</td>
+                            <td>R$ 2.200</td>
+                        </tr>
+                        <tr>
+                            <td>21/07/2024</td>
+                            <td>Banco do Brasil</td>
+                            <td>- R$ 100,00</td>
+                            <td>R$ 2.200</td>
+                        </tr>
+                        <tr>
+                            <td>20/07/2024</td>
+                            <td>Banco do Brasil</td>
+                            <td>- R$ 100,00</td>
+                            <td>R$ 2.200</td>
+                        </tr>
+                        <tr>
+                            <td>10/07/2024</td>
+                            <td>Pix</td>
+                            <td>+ R$ 100,00</td>
+                            <td>R$ 2.100</td>
+                        </tr>
+                        <tr>
+                            <td>07/07/2024</td>
+                            <td>Compra</td>
+                            <td>- R$ 200,00</td>
+                            <td>R$ 2.000</td>
+                        </tr>
+                        <tr>
+                            <td>04/07/2024</td>
+                            <td>Compra</td>
+                            <td>- R$ 100,00</td>
+                            <td>R$ 2.400</td>
+                        </tr>
+                        <tr>
+                            <td>01/07/2024</td>
+                            <td>Pix</td>
+                            <td>+ R$ 100,00</td>
+                            <td>R$ 2.500</td>
+                        </tr>
+                        <tr>
+                            <td>16/06/2024</td>
+                            <td>Pix</td>
+                            <td>+ R$ 400,00</td>
+                            <td>R$ 2.400</td>
+                        </tr>
+                        <tr>
+                            <td>15/06/2024</td>
+                            <td>Pix</td>
+                            <td>- R$ 100,00</td>
+                            <td>R$ 2.000</td>
+                        </tr>
+                        <tr>
+                            <td>07/06/2024</td>
+                            <td>Transferência para o Banco do Brasil</td>
+                            <td>- R$ 100,00</td>
+                            <td>R$ 2.100</td>
+                        </tr>
+                        <tr>
+                            <td>01/06/2024</td>
+                            <td>Transferência para Banco do Brasil</td>
+                            <td>- R$ 100,00</td>
+                            <td>R$ 2.200</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <br>
+        <section class="servicos">
+            <h2 class="h2-pag-transacoes">Serviços Bancários</h2>
+            <br>
+            <div class="servicos-bancarios">
+                <img class="img-servicos" src="imgs/transferencia-de-dinheiro.png" alt="Icone simulando uma transferência de dinehiro">
+                <h3 class="h3-pag-transacoes">Transferência de dinheiro</h3>
+            </div>
+            <div class="servicos-bancarios">
+                <img class="img-servicos" src="imgs/pagamento.png" alt="Icone simulando uma mão pagando">
+                <h3 class="h3-pag-transacoes">Pagamento de contas</h3>
+            </div>
+            <div class="servicos-bancarios">
+                <img class="img-servicos" src="imgs/emprestimo.png" alt="Icone simulando um emprestimo">
+                <h3 class="h3-pag-transacoes">Solicitação de emprestimos</h3>
+            </div>
+            <div class="servicos-bancarios">
+                <img class="img-servicos" src="imgs/credit-card.png" alt="Icone simulando cartões de crédito">
+                <h3 class="h3-pag-transacoes">Gerenciamento de cartões</h3>
+            </div>
+        </section>
     </main>
 </body>
 <footer>
