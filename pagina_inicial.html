@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imgs/logo-01.png" type="image/x-icon">
+    <script src="script.js"></script> <!-- Importa o arquivo de script JavaScript -->
     <title>Banco Safe</title>
 </head>
 <body>
@@ -73,60 +74,64 @@
         </section>
     
         <section class="banner"> <!-- Banner com instruções de como criar uma conta online no banco -->
-            <img src="imgs/pag-inicial-passo-a-passo.jpg" alt="Banner com instruções de como criar uma conta online no banco">
+            <video autoplay muted loop>
+                <source src="imgs/banner-2.mp4" type="video/mp4">
+         </video>
         </section>
     
-        <section>
-            <h2 id="h2-carrossel">Dicas para seu dia a dia</h2>
-            <div class="carousel">
-                <button class="carousel-button prev">‹</button>
-                <div class="carousel-container" id="carousel">
-                    <div class="card">
-                        <img src="imgs/diferença-conats.png" alt="">
-                        <div class="card-body">
-                            <h5>Diferença entre conta corrente e bancária</h5>
-                            <p class="card-text">Entenda as vantagens e usos de cada tipo de conta.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="imgs/facilidades.jpg" alt="">
-                        <div class="card-body">
-                            <h5>Como nosso APP pode facilitar seu dia a dia</h5>
-                            <p class="card-text">Simplifique suas operações bancárias com nosso aplicativo.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="imgs/segurança-conta.jpg" alt="">
-                        <div class="card-body">
-                            <h5>Conta Segura: senhas fortes são fundamentais</h5>
-                            <p class="card-text">Proteja sua conta com senhas seguras e difíceis de adivinhar.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="imgs/jogo-azar.png" alt="">
-                        <div class="card-body">
-                            <h5>Jogos e apostas online: diversão que pode virar prejuízo</h5>
-                            <p class="card-text">Saiba os riscos e cuide do seu dinheiro ao jogar online.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="imgs/conta-conjuta.jpg" alt="">
-                        <div class="card-body">
-                            <h5>Conta conjunta entenda como funciona</h5>
-                            <p class="card-text">Saiba como uma conta conjunta pode beneficiar você e seu parceiro.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="imgs/estagio.jpg" alt="">
-                        <div class="card-body">
-                            <h5>Estágios: saiba como aproveitar as oportunidades durante a faculdade</h5>
-                            <p class="card-text">Descubra como um estágio pode impulsionar sua carreira.</p>
-                        </div>
-                    </div>
+        <section class="carousel-section">
+     <section class="carousel-section">
+    <h2 id="h2-carrossel">Dicas para seu dia a dia</h2><!--Título da seção-->
+    <div class="carousel">
+        <button class="carousel-button prev">‹</button><!--Botão de rolar paa esquerda-->
+        <div class="carousel-container" id="carousel">
+            <div class="card"><!--Cada cartão do carrosel-->
+                <img src="imgs/diferença-conats.png" alt="">
+                <div class="card-body">
+                    <h5>Diferença entre conta corrente e bancária</h5>
+                    <p class="card-text">Entenda as vantagens e usos de cada tipo de conta.</p>
                 </div>
-                <button class="carousel-button next">›</button>
-            </div>                
-        </section>
+            </div>
+            <div class="card">
+                <img src="imgs/facilidades.jpg" alt="">
+                <div class="card-body">
+                    <h5>Como nosso APP pode facilitar seu dia a dia</h5>
+                    <p class="card-text">Simplifique suas operações bancárias com nosso aplicativo.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/segurança-conta.jpg" alt="">
+                <div class="card-body">
+                    <h5>Conta Segura: senhas fortes são fundamentais</h5>
+                    <p class="card-text">Proteja sua conta com senhas seguras e difíceis de adivinhar.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/jogo-azar.png" alt="">
+                <div class="card-body">
+                    <h5>Jogos e apostas online: diversão que pode virar prejuízo</h5>
+                    <p class="card-text">Saiba os riscos e cuide do seu dinheiro ao jogar online.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/conta-conjuta.jpg" alt="">
+                <div class="card-body">
+                    <h5>Conta conjunta entenda como funciona</h5>
+                    <p class="card-text">Saiba como uma conta conjunta pode beneficiar você e seu parceiro.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/estagio.jpg" alt="">
+                <div class="card-body">
+                    <h5>Estágios: saiba como aproveitar as oportunidades durante a faculdade</h5>
+                    <p class="card-text">Descubra como um estágio pode impulsionar sua carreira.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-button next">›</button><!-- Botão para rolar o carrossel para a direita -->
+    </div>                
+</section>
+   
     </main>
     
     <footer>
