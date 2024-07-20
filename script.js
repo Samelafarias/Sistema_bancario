@@ -1,3 +1,4 @@
+//INTERATIVIDADE DO CARROSEL DA PÁGINA INICIAL
 document.addEventListener('DOMContentLoaded', () => {
     const carouselContainer = document.getElementById('carousel');
     const prevButton = document.querySelector('.carousel-button.prev');
@@ -19,3 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+
+
