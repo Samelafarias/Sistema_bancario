@@ -575,7 +575,12 @@ video{
 
 .h4-servicos-pag-princ{
     text-align: center;
+    text-decoration: none;
     margin-top: 2%;
+}
+
+.h4-servicos-pag-princ > a {
+    text-decoration: none;
 }
 
 
